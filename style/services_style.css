@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 90%;
+}
+
+.servicesSection {
+    margin-top: 40px;
+}
+
+.servicesSection .text-gray {
+    font-size: 1rem;
+}
+
+.servicesSection h1 {
+    font-size: 2.5rem;
+}
+
+.servicesSection p {
+    font-size: 1rem;
+}
+
+.servicesSection .flowchart .horizontal {
+    background-color: rgb(225, 187, 255);
+    height: 3px;
+    width: 1122px;
+    margin: 55px 0;
+    display: flex;
+}
+
+.servicesSection .flowchart .vertical1 {
+    height: 50px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin-right: 69px;
+}
+
+.servicesSection .flowchart .vertical2 {
+    height: 100px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical3 {
+    height: 50px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical4 {
+    height: 100px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical5 {
+    height: 50px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical6 {
+    height: 100px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical7 {
+    height: 50px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical8 {
+    height: 100px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin: 0 69px;
+}
+
+.servicesSection .flowchart .vertical9 {
+    height: 50px;
+    width: 2px;
+    background: linear-gradient(white, rgb(132, 0, 255));
+    margin-left: 69px;
+}
+
+.servicesSection img {
+    width: 30px;
+    position: relative;
+    top: -35px;
+    left: -15px;
+}
+
+.servicesSection>.title,
+.titled,
+.desc {
+    font-weight: lighter;
+    position: relative;
+    font-size: 15px;
+    width: 90px;
+}
+
+.servicesSection .title {
+    margin-top: 15px;
+}
+
+.servicesSection .titled {
+    margin-top: 65px;
+}
+
+.servicesSection .desc {
+    margin-top: 10px;
+    color: gray;
+}
+
+.homebtn {
+    margin-left: 70px;
+    margin-bottom: 7px;
+    margin-top: 400px;
+}

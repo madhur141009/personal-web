@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhur Personal Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="image">
+                <img src="img/madhur.png">
+            </div>
+            <div class="left">
+                <h1>Madhur's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="html/about.html">About</a></li>
+                    <li><a href="html/services.html">Services</a></li>
+                    <li><a href="html/contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Madhur</span>
+                <div>and I am a</div>
+                <span id="element"></span><br>
+                <button class="githubbtn"><a href="https://github.com/madhur141009">Visit Github</a></button>
+            </div>
+            <div class="rightSection">
+                <img src="img/bg.png">
+            </div>
+        </section>
+        <hr>
+        <section class="aboutSection">
+            <span class="text-gray">What's my introduction, what's my speciality actually...</span>
+            <h1>My Introduction</h1>
+            <p><br>Name : <span class="purple">Madhur Garg</span><br>School Name : <span class="purple">Shri Ram Shiksha Mandir Sr. Sec. School</span><br>Class : <span class="purple">VIII<sup>th</sup></span><br></p>
+            <button class="aboutbtn"><a href="html/about.html">Read More...</a></button>
+        </section>
+        <hr>
+        <section class="servicesSection">
+            <span class="text-gray">What I have done so far...</span>
+            <h1>Services</h1>
+            <p>I have worked in many many softwares and learned three computer languages - Two markup languages(HTML and CSS) and One Programming Language (Python). I also have basic information about MySQL. I know Microsoft Office softwares since when I
+                was small. I know how to make simple drawings in AutoCAD, recently in 2023, I have learned basic 3D moddeling in FreeCAD. I also know how to make a Android App. I know how to edit a photo in softwares such as Adobe Lightroom, Picsart,
+                etc.(in phones). I also know how to edit a video or combine several videos into one using Kinemaster(Phone), Power Director(Power), VSDC(PC), Windows Video Editor(PC, Windows 10 or 11).<br><br>This is a flowchart about the same : </p>
+            <button class="servicesbtn"><a href="html/services.html">Know More...</a></button>
+        </section>
+        <hr>
+        <section class="contactSection">
+            <span class="text-gray">How can you contact me...</span>
+            <h1>Contact Me</h1>
+            <p>If you have any query or if you want to share your feedback, then fill the form given.</p>
+            <button class="contactbtn"><a href="html/contact-me.html">Contact Me...</a></button>
+        </section>
+    </main>
+    <div class="dev">
+        <p>Copyright @ 2023 | Made by <a href="https://github.com/madhur141009"><span class="purple">Madhur Garg</span></a></p>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js "></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'UI Designer.^1000', 'Python Programmer.^1000', '3D Modeller.^1000', 'Video Editor.^1000', 'Photo Editor.^1000'],
+            typeSpeed: 50,
+            loop: true,
+            shuffle: true
+        });
+    </script>
+</body>
+
+</html>

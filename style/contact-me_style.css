@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactSection {
+    margin-top: 40px;
+}
+
+.contactSection p {
+    margin-bottom: 40px;
+}
+
+.box {
+    background-color: rgb(167, 98, 233);
+    border: 3px solid white;
+    align-items: center;
+    margin: 0 250px;
+    display: flex;
+    flex-basis: 60%;
+    padding: 60px 80px;
+    border-radius: 50px;
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    display: flex;
+    font-size: large;
+    background-color: rgb(167, 98, 233);
+    color: white;
+    width: 165%;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 15px 10px;
+    margin: 7px 0;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 175%;
+    background-color: rgb(167, 98, 233);
+    color: white;
+    border: 3px solid white;
+    border-radius: 25px;
+    font-size: large;
+    padding: 15px 10px;
+    margin-top: 7px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: white;
+}
+
+.btn {
+    margin: 0px 5px;
+    border: 3px solid white;
+    color: white;
+    border-radius: 20px;
+}

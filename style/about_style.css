@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutSection {
+    margin-top: 40px;
+}
+
+.aboutSection .text-gray {
+    font-size: 1.2rem;
+}
+
+.aboutSection h1 {
+    font-size: 3rem;
+}
+
+.aboutSection p {
+    font-size: 1.2rem;
+}
+
+.certificatesbtn,
+.homebtn {
+    margin: 7px;
+}

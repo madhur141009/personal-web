@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+.right ul {
+    display: flex;
+    justify-self: center;
+}
+
+.right ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.right ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.right ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 17px;
+}
+
+hr {
+    background-color: rgb(156, 151, 241);
+    height: 1px;
+    margin: 50px 85px;
+}
+
+.image img {
+    width: 40px;
+    border: 2px solid rgb(170, 107, 228);
+    border-radius: 50%;
+    background-color: rgb(132, 0, 255);
+    transition: 0.3s, background-color 0.5s;
+}
+
+.image img:hover {
+    border-radius: 5%;
+    border: 2px solid rgb(132, 0, 255);
+    background-color: rgb(170, 107, 228);
+}
+
+.left {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.left:hover {
+    animation: title 1s;
+}
+
+@keyframes title {
+    0% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-6px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.1rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.aboutSection,
+.servicesSection,
+.contactSection {
+    max-width: 85%;
+    margin: auto;
+}
+
+.aboutSection h1,
+.servicesSection h1,
+.contactSection h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.aboutSection p,
+.servicesSection p,
+.contactSection p {
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.aboutSection .aboutbtn,
+.servicesSection .servicesbtn,
+.contactSection .contactbtn,
+.homebtn,
+.certificatesbtn,
+.btn,
+.githubbtn {
+    margin-top: 25px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid rgb(132, 0, 255);
+    background-color: rgb(167, 98, 233);
+    transition: 0.3s, background-color 0.5s;
+    cursor: pointer;
+}
+
+.aboutSection .aboutbtn:hover,
+.servicesSection .servicesbtn:hover,
+.contactSection .contactbtn:hover,
+.homebtn:hover,
+.certificatesbtn:hover,
+.btn:hover,
+.githubbtn:hover {
+    transform: translateY(-5px);
+    border: 2px solid rgb(167, 98, 233);
+    background-color: rgb(132, 0, 255);
+}
+
+.aboutSection .aboutbtn a,
+.servicesSection .servicesbtn a,
+.contactSection .contactbtn a,
+.homebtn a,
+.certificatesbtn a,
+.dev a,
+.githubbtn a {
+    color: rgb(219, 218, 226);
+    text-decoration: none;
+}
+
+.contactSection {
+    margin-bottom: 40px;
+}
+
+.dev {
+    background-color: rgb(18, 18, 62);
+    text-align: center;
+}
